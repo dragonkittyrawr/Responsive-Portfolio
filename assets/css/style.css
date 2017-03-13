@@ -48,7 +48,7 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 100%;
 }
 
 hr {
@@ -340,11 +340,8 @@ a.icon:hover {
 }
 
 @media screen and (max-width: 1130px) {
-    main {
-        max-width: calc(1130px * .8);
-    }
+    
     aside {
-        clear: both;
         text-align: left;
     }
     aside,
@@ -353,7 +350,6 @@ a.icon:hover {
         padding: 2%;
         margin-left: 10%;
         margin-right: 10%;
-        display: block;
     }
 }
 
@@ -372,7 +368,6 @@ a.icon:hover {
         display: block;
     }
     aside {
-        clear: both;
         text-align: left;
     }
 }
