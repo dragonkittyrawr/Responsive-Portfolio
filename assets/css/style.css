@@ -191,6 +191,9 @@ footer {
 
 /* Classes */
 
+.responsive {
+    min-height: 100%;
+}
 
 /* About Me Page */
 
@@ -315,22 +318,6 @@ a.icon:hover {
 
 
 /* Media Queries */
-
-
-/*.wrapper {
-    width: 100%;
-    padding: 20px;
-  }
-
-  #main-content {
-    width: 100%;
-  }
-
-  #sidebar {
-    clear: both;
-    width: 100%;
-    margin-top: 5%;
-  }*/
 
 @media screen and (max-width: 1350px) {
     html {
