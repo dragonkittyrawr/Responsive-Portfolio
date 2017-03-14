@@ -44,14 +44,15 @@ h1,
 h2,
 h3,
 p,
-img,
 nav,
 form,
 aside,
 .abtme,
+.mypic,
 .project,
 .folio,
-.icon {
+.icon,
+.contact {
     padding: 1%;
 }
 
@@ -180,8 +181,8 @@ section {
 
 .abtme {
     clear: both;
-    /*padding: 20px;*/
     display: inline;
+    width: 100%;
 }
 
 .mypic {
@@ -197,7 +198,7 @@ section {
 
 .folio {
     clear: both;
-    /*padding: 20px;*/
+    width: 100%;
 }
 
 .foliolabel {
@@ -269,6 +270,12 @@ div.project-5:hover {
 
 /* CONTACT */
 
+.contact {
+    clear: both;
+    display: inline;
+    width: 100%;
+}
+
 .submitbtn {
     background: #4aaaa5;
     width: 95px;
@@ -296,7 +303,6 @@ aside {
 .icon {
     clear: both;
     height: 50px;
-    width: 50px;
     /*padding: 5px;*/
 }
 
@@ -310,7 +316,6 @@ a.icon:hover {
 footer {
     height: 5%;
     width: 100%;
-    margin-top: 2%;
     background: #666666;
     clear: both;
     overflow: hidden;
@@ -321,5 +326,5 @@ footer {
     border-top-width: 5px;
     vertical-align: middle;
     position: absolute;
-    top: 95%;
+    top: calc(95% - 5px);
 }
