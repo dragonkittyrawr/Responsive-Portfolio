@@ -34,7 +34,7 @@ Be sure to include the viewport tag in all your HTML files, otherwise your media
 
 html {
     position: relative;
-    min-height: calc(781px * .918);
+    height: 100%;
 }
 
 body {
